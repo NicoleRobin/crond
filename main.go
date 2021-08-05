@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/nicolerobin/crond/log"
+)
 
 func main() {
-	fmt.Println("hello crond")
+	log.Debug("hello crond")
 }
